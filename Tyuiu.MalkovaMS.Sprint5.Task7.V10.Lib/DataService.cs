@@ -21,7 +21,10 @@ namespace Tyuiu.MalkovaMS.Sprint5.Task7.V10.Lib
                 {
                     for (int i = 0; i < line.Length; i++)
                     {
-                        strLine = strLine + char.ToLower(line[i]);
+                        if ((line[i] >= 'A' && line[i] <= 'Z'))
+                            strLine = strLine + char.ToLower(line[i]);
+                        else
+                            strLine = strLine + line[i];
                     }
 
                     File.AppendAllText(pathSaveFile, strLine + Environment.NewLine);
