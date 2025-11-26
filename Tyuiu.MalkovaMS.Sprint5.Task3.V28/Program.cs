@@ -11,7 +11,7 @@ internal class Program
         Console.WriteLine("* Спринт #5                                                               *");
         Console.WriteLine("* Тема: Класс File. Запись набора данных в текстовый файл                 *");
 
-        Console.WriteLine("* Задание #2                                                              *");
+        Console.WriteLine("* Задание #3                                                              *");
         Console.WriteLine("* Вариант #28                                                             *");
         Console.WriteLine("* Выполнила: Малькова Мария Сергеевна | ИИПб-25-1                         *");
         Console.WriteLine("***************************************************************************");
